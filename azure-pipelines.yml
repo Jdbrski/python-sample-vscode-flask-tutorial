@@ -13,13 +13,13 @@ pool:
 strategy:
   matrix:
     Python38:
-      python.version: '3.8'
+      python.version: '3.8.18'
     Python39:
-      python.version: '3.9'
+      python.version: '3.9.21'
     Python310:
-      python.version: '3.10'
+      python.version: '3.10.16'
     Python311:
-      python.version: '3.11'
+      python.version: '3.11.11'
 
 steps:
 - task: UsePythonVersion@0
